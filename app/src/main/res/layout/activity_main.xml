@@ -22,7 +22,7 @@
             android:id="@+id/displayRef"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="5+5"
+            android:text=""
             android:textSize="20sp"
             android:textAlignment="textEnd"
             android:layout_gravity="center_vertical"
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
-            android:textSize="48sp"
+            android:textSize="26sp"
             android:textAlignment="textEnd"
             android:layout_gravity="center_vertical"
             tools:ignore="RtlCompat"
@@ -62,7 +62,26 @@
 
         >
 
-
+        <Button
+            android:id="@+id/MC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="MC"
+            android:textSize="16dp"
+            android:backgroundTint="#4AA9ED"
+            />
+        <Button
+            android:id="@+id/MR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="MR"
+            android:textSize="16dp"
+            android:backgroundTint="#4AA9ED"
+            />
         <Button
             android:id="@+id/MMore"
             android:layout_width="0dp"
@@ -412,13 +431,13 @@
         android:layout_weight="1">
 
         <Button
-            android:text="log"
             android:id="@+id/log"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="2dp"
+            android:layout_weight="1"
             android:backgroundTint="#4AA9ED"
+            android:text="log10"
             android:textSize="16dp" />
 
         <Button
@@ -468,7 +487,7 @@
         android:layout_weight="1">
 
         <Button
-            android:text="ln"
+            android:text="log"
             android:id="@+id/ln"
             android:layout_width="0dp"
             android:layout_height="match_parent"
